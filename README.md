@@ -20,6 +20,24 @@ streamlit run app.py
 
 Abrir la URL que muestra Streamlit (por defecto `http://localhost:8501`).
 
+## Inicio rápido en Windows
+
+```bat
+rem 1. Crear el entorno virtual (solo la primera vez)
+python -m venv venv
+
+rem 2. Activar el entorno
+venv\Scripts\activate
+
+rem 3. Instalar dependencias
+pip install -r requirements.txt
+
+rem 4. Ejecutar la aplicación
+streamlit run app.py
+```
+
+> **Importante en Windows:** `RUTA_ARCHIVOS_CSV` en `app.py` apunta a una ruta absoluta de Linux (`/home/user/...`). Al correr en Windows hay que cambiarla, por ejemplo a `r"C:\Users\TU_USUARIO\ALLEGRO_04_08_2026\data"`. Si usás PowerShell, la activación del entorno es `venv\Scripts\Activate.ps1` (o `venv\Scripts\activate.bat` en CMD).
+
 ## Cómo se usa
 
 1. **Información de lote**: ingresar SHOP ORDER (10 caracteres), SPEC (8), BADGE (5 dígitos), turno, máquina y fecha. Al completar el SHOP ORDER la app busca el CSV automáticamente en `data/uploads/`.

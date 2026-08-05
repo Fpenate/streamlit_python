@@ -1,0 +1,52 @@
+# ============================================================
+# PYTHON
+# ============================================================
+# Entorno virtual
+venv/
+.venv/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Builds / distribuciones
+*.egg-info/
+dist/
+build/
+
+# ============================================================
+# CREDENCIALES Y CONFIGURACIÓN LOCAL
+# ============================================================
+# Credenciales de base de datos (NUNCA subir: contiene DB_HOST/DB_USER/DB_PASSWORD)
+config_db.json
+
+# Variables de entorno
+.env
+.env.*
+
+# ============================================================
+# DATOS DE MEDICIONES (CSV)
+# ============================================================
+# Archivos de medición por SHOP ORDER (datos de producción, no código)
+# Se ignoran también dentro de subcarpetas (ej. Allegro3/, Allegro4/)
+data/uploads/**/*.csv
+!data/uploads/.gitkeep
+
+# ============================================================
+# HERRAMIENTAS / IDE / SO
+# ============================================================
+# Caché local de skills de OpenCode
+.atl/
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

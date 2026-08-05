@@ -1,0 +1,17 @@
+#crear entorno virtual
+python3 -m venv venv
+
+#activar el entorno virtual
+source venv/bin/activate
+
+#con el entorno virtual activado instalar las dependencias
+pip install -r requirements.txt
+
+#cuando termine de instalar todo ejecutar la aplicacion
+streamlit run app.py
+
+#cambiar la ruta de la carpeta de los archivos si es necesario
+
+AU4358131X
+AU5737581X
+AU3860037X

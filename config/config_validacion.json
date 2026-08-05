@@ -1,0 +1,8 @@
+{
+    "min_mediciones_por_track": 80,
+    "sigma_value": 3.0,
+    "sigma_reproceso": 0.5,
+    "alpha_flash": 0.05,
+    "alpha_ir": 0.0551,
+    "fecha_ultima_modificacion": "2026-08-04 21:31:14"
+}

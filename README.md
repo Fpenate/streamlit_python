@@ -1,4 +1,4 @@
-# Stramlit Python Proyect
+# Streamlit Python Proyect
 
 Aplicación web (Streamlit) para validar mediciones de sensores Flash/IR en Allegro a partir de archivos CSV. Procesa las mediciones, valida cada track, ejecuta pruebas estadísticas (Levene, ANOVA, Tukey HSD), calcula límites de control I-MR y genera un reporte imprimible con el resultado de la prueba.
 
